@@ -1,0 +1,146 @@
+.information__inner{
+  background-color: $white;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.information__title, .data__title{
+  font-size: 18px;
+}
+.information__desc{
+  font-size: 13px;
+  color: #414141;
+}
+.information__icon{
+  font-size: 35px;
+  color: #878787;
+}
+.information__wrapper{
+  position: relative;
+}
+.information__wrapper::after{
+  content: "";
+  width: 150%;
+  height: 1px;
+  background-color: rgba(170, 170, 170, 0.384);
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+}
+.information__mail{
+  @include decoration-none();
+  font-size: 14px;
+  color: #555;
+}
+.information__form{
+  border: 1px solid rgba(0,0,0,.125);
+  height: 420px;
+}
+.data__inner{
+  padding: 35px;
+  position: relative;
+}
+.data__desc{
+  font-size: 14px;
+}
+.form-select{
+  background-color: #ebebeb;
+  height: 38px;
+}
+.data__input{
+  width: 100%;
+  height: 38px;
+  padding-left: 20px;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 4px;
+}
+.data__input:focus{
+  outline: 1px solid rgba(0, 0, 255, 0.486);
+}
+.data__optional{
+  font-size: 14px;
+  color: #878787;
+}
+.form-control{
+  opacity: 0;
+  background-color: #414141;
+}
+.data__form__inner{
+ position: relative;
+}
+.data__choose{
+  background-color: $second-color;
+  padding: 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: $white;
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+textarea{
+  padding-top: 15px;
+  padding-left: 20px;
+  color: #aaa;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 5px;
+  width: 40vw;
+}
+textarea::placeholder{
+  color: #aaa;
+}
+textarea:focus{
+  outline: none;
+}
+.data__btn{
+  @include border-none();
+  background-color: $second-color;
+  padding: 10px 30px;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 30px;
+  transition: all 0.4s ease;
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+}
+.data__btn:hover{
+  background-color: $primary-color;
+  color: $white;
+}
+
+@media screen and (max-width: 945px) {
+  .information__wrapper::after{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .information__main{
+    flex-direction: column;
+  }
+  .data__subject{
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .data__input{
+    width: 100% !important;
+  }
+  textarea{
+    padding: 0 0;
+  }
+  .data__subject:nth-child(4){
+    position: relative;
+    top: -50px;
+  }
+  .data__desc{
+    margin-bottom: 20px !important;
+  }
+  .information__form{
+    height: 590px;
+  }
+  
+  
+}

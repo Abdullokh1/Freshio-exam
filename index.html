@@ -1,23 +1,1710 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lesson</title>
-    <link
-      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/flexboxgrid.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
-    />
-    <link rel="stylesheet" href="css/main.min.css" />
-  </head>
 
-  <body>
-    <script src="js/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Freshio</title>
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+  <link rel="stylesheet" href="css/main.min.css" />
+  <!-- <link rel="icon" type="image/vnd.microsoft.icon" href="https://demo73leotheme.b-cdn.net/prestashop/at_freshio/img/favicon.ico?1603358296"> -->
+</head>
+
+<body>
+
+    <header class="site-header header">
+      <div class="container">
+        <div class="d-flex justify-content-between header__inner">
+          <div>
+            <p class="header__desc mb-0">FREE express international delivery + EASY returns</p>
+          </div>
+          <nav>
+            <ul class="header__list nav">
+              <li class="nav__item"><a class="nav__link" href="about.html">about</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">faq</a></li>
+              <li class="nav__item"><a class="nav__link" href="contact.html">contact us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="header__part">
+        <div class="container">
+          <div class="d-flex pb-4 header__part__main__inner justify-content-between align-items-center">
+
+
+            <button class="left-canva-btn" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                class='bx left-canva-menu bx-menu'></i></button>
+
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+              aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                <button class="offcanva-start-btn d-flex align-items-center" type="button" data-bs-dismiss="offcanvas"
+                  aria-label="Close"><i class='bx offcanva-start-icon bx-x'></i>Close</button>
+              </div>
+              <div class="offcanvas-body p-0">
+
+                <nav>
+                  <ul class="navigation pt-3 m-0 p-0">
+                    <li class="navigation__item d-flex justify-content-between align-items-center">
+                      <a class="navigation__link text-white" href="#">Home</a>
+                      <button class="navigation__btn" id="rightBtn"><i
+                          class='bx navigation__icon bx-chevrons-right'></i></button>
+                      <div class="navigation__body" id="hideBody">
+                        <ul class="navigation">
+                          <li class="navigation__item navigation__item--second d-flex align-items-center">
+                            <i class='bx bx-chevrons-right navigation__home__icon bx-flip-horizontal'></i>
+                            <a class="navigation__link navigation__link--home" id="closeBtn" href="#">Back to home</a>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second">
+                            <a class="navigation__link text-white" href="#">Home 1</a>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second">
+                            <a class="navigation__link text-white" href="#">Home 2</a>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second">
+                            <a class="navigation__link text-white" href="#">Home 3</a>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second">
+                            <a class="navigation__link text-white" href="#">Home 4</a>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second">
+                            <a class="navigation__link text-white" href="#">Home 5</a>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second">
+                            <a class="navigation__link text-white" href="#">Home 6</a>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second">
+                            <a class="navigation__link text-white" href="#">Home 7</a>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second">
+                            <a class="navigation__link text-white" href="#">Home 8</a>
+                          </li>
+
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="navigation__item d-flex justify-content-between align-items-center">
+                      <a class="navigation__link text-white" href="#">Shop</a>
+                      <button class="navigation__btn" id="rightBtn-2"><i
+                          class='bx navigation__icon navigation__icon--shop bx-chevrons-right'></i></button>
+                      <div class="navigation__body" id="hideBody-2">
+                        <ul class="navigation">
+                          <li class="navigation__item navigation__item--second d-flex align-items-center">
+                            <i class='bx bx-chevrons-right navigation__home__icon bx-flip-horizontal'></i>
+                            <a class="navigation__link navigation__link--home" id="closeBtn-2" href="#">Back to home</a>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second d-flex justify-content-between">
+                            <a class="navigation__link text-white" href="#">Categories 1</a>
+                            <button class="navigation__categ__btn">
+                              <i class='bx bx-chevrons-down navigation__home__icon bx-flip-horizontal'></i>
+                            </button>
+
+                          </li>
+
+                          <li class="navigation__item navigation__item--second d-flex justify-content-between">
+                            <a class="navigation__link text-white" href="#">Categories 2</a>
+                            <button class="navigation__categ__btn">
+                              <i class='bx bx-chevrons-down navigation__home__icon bx-flip-horizontal'></i>
+                            </button>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second d-flex justify-content-between">
+                            <a class="navigation__link text-white" href="#">Categories 3</a>
+                            <button class="navigation__categ__btn">
+                              <i class='bx bx-chevrons-down navigation__home__icon bx-flip-horizontal'></i>
+                            </button>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second d-flex justify-content-between">
+                            <a class="navigation__link text-white" href="#">Categories 4</a>
+                            <button class="navigation__categ__btn">
+                              <i class='bx bx-chevrons-down navigation__home__icon bx-flip-horizontal'></i>
+                            </button>
+                          </li>
+
+
+
+                        </ul>
+                      </div>
+
+                    </li>
+
+                    <li class="navigation__item d-flex justify-content-between align-items-center">
+                      <a class="navigation__link text-white" href="#">Pages</a>
+                      <button class="navigation__btn" id="rightBtn-3"><i
+                          class='bx navigation__icon navigation__icon--shop bx-chevrons-right'></i></button>
+                      <div class="navigation__body navigation__body--third" id="hideBody-3">
+                        <ul class="navigation">
+                          <li class="navigation__item navigation__item--second d-flex align-items-center">
+                            <i class='bx bx-chevrons-right navigation__home__icon bx-flip-horizontal'></i>
+                            <a class="navigation__link navigation__link--home" id="closeBtn-3" href="#">Back to home</a>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second">
+                            <a href="#"><img src="images/pages-img.jpg" alt="pages-img"></a>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second">
+                            <a href="#"><img src="images/pages-img-2.jpg" alt="pages-img-2"></a>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second">
+                            <a href="#"><img src="images/pages-img.jpg" alt="pages-img"></a>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second">
+                            <a href="#"><img src="images/pages-img.jpg" alt="pages-img"></a>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second">
+                            <a href="#"><img src="images/pages-img-2.jpg" alt="pages-img-2"></a>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second">
+                            <a href="#"><img src="images/pages-img-3.jpg" alt="pages-img-3"></a>
+                          </li>
+
+                          <li class="navigation__item navigation__item--second">
+                            <a href="#"><img src="images/pages-img-3.jpg" alt="pages-img-3"></a>
+                          </li>
+
+
+
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li
+                      class="navigation__item navigation__item--blog d-flex justify-content-between align-items-center">
+                      <a class="navigation__link text-white" href="#">Blog</a>
+                    </li>
+
+                    <li
+                      class="navigation__item navigation__item--blog d-flex justify-content-between align-items-center">
+                      <a class="navigation__link text-white" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
+
+              </div>
+            </div>
+            <div>
+              <a class="header__part__logo" href="#"><img src="images/main-logo.jpg" alt="main-logo"></a>
+            </div>
+            <div>
+              <div class="header__part__inp__wrapper">
+                <i class='bx header__part__search bx-search'></i>
+                <input class="header__part__input" type="text" name="search" placeholder="Enter Keyword...">
+                <a class="header__part__link" href="#">Search</a>
+              </div>
+            </div>
+            <div>
+              <button class="header__part__btn me-2 header__part__btn--act" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight" type="button" data-bs-toggle="offcanvas"><i
+                  class='bx header__part__icon bx-user'></i></button>
+
+              <div class="offcanvas offcanvas-end col-lg-12 col-md-12 col-sm-12" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+
+                <div class="offcanvas-body pb-5">
+                  <div class="d-flex pt-3 pb-4 align-items-center justify-content-between">
+                    <a href="#"><img src="images/main-logo.jpg" alt="main-logo"></a>
+                    <button type="button" data-bs-dismiss="offcanvas" class="close-button" aria-label="Close"><i
+                        class='bx close-icon bx-x'></i></button>
+                  </div>
+                  <a class="account-link mb-3 d-inline-block" href="#">Existing Account Login</a>
+                  <div class="input-wrapper">
+                    <form action="#">
+                      <input class="w-100 mb-3 canva-input" type="email" name="email" placeholder="Email Address"
+                        required>
+                      <input class="w-100 mb-3 canva-input " type="password" name="password" placeholder="Password"
+                        required>
+                      <img class="key-img" src="images/key-icon.svg" alt="key-icon" width="27" height="27">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <label class="form-check-label remember-label" for="flexCheckIndeterminate">
+                            Remember me
+                          </label>
+                          <a class="forgot-link" href="#">Forgot Pasword ?</a>
+                        </div>
+                      </div>
+                      <button class="w-100 login-btn mt-3" type="submit">Login</button>
+                    </form>
+                    <a class="account-link mb-2 d-inline-block" href="#">Connect with Social Networks</a>
+
+                  </div>
+                  <ul class="social-network d-flex network m-0 mb-4 p-0">
+                    <li class="network__item">
+                      <a class="network__link" href="#"><i class='bx network__icon bxl-facebook'></i></a>
+                    </li>
+
+                    <li class="network__item network__item--second">
+                      <a class="network__link" href="#"><i class='bx network__icon bxl-google'></i></a>
+                    </li>
+
+                    <li class="network__item network__item--third">
+                      <a class="network__link" href="#"><i class='bx network__icon bxl-twitter'></i></a>
+                    </li>
+                  </ul>
+                  <a class="account-link mb-3 d-inline-block" href="#">New Account Register</a>
+                  <form action="#" class="register-part">
+                    <input class="w-100 mb-3 canva-input" type="text" name="username" placeholder="First Name" required>
+                    <input class="w-100 mb-3 canva-input" type="text" name="lastname" placeholder="Last Name" required>
+                    <input class="w-100 mb-3 canva-input" type="email" name="email" placeholder="Email Address"
+                      required>
+
+                    <input class="w-100 mb-3 canva-input " type="password" name="password" placeholder="Password"
+                      required>
+                    <img class="key-img-second" src="images/key-icon.svg" alt="key-icon" width="27" height="27">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="agree">
+                      <div class="d-flex align-items-center justify-content-between">
+                        <label class="form-check-label remember-label pt-1" for="agree">
+                          I agree this term
+                        </label>
+                      </div>
+                    </div>
+                    <button class="w-100 login-btn mt-3" type="submit">Create an Account</button>
+                  </form>
+
+                  <div class="d-flex justify-content-between">
+                    <div class="col-4">
+                      <p class="mb-1 lang-text">Language:</p>
+                      <ul class="flag m-0 mb-2 p-0 d-flex flex-wrap">
+                        <li class="flag__item">
+                          <img src="https://demo73.leotheme.com/prestashop/at_freshio/img/l/1.jpg" alt="america">
+                        </li>
+                        <li class="flag__item">
+                          <img src="https://demo73.leotheme.com/prestashop/at_freshio/img/l/2.jpg" alt="france">
+                        </li>
+
+                        <li class="flag__item">
+                          <img src="https://demo73.leotheme.com/prestashop/at_freshio/img/l/3.jpg" alt="germany">
+                        </li>
+
+                        <li class="flag__item">
+                          <img src="https://demo73.leotheme.com/prestashop/at_freshio/img/l/4.jpg" alt="italy">
+                        </li>
+
+                        <li class="flag__item">
+                          <img src="https://demo73.leotheme.com/prestashop/at_freshio/img/l/5.jpg" alt="spain">
+                        </li>
+
+                        <li class="flag__item">
+                          <img src="https://demo73.leotheme.com/prestashop/at_freshio/img/l/6.jpg" alt="saudia">
+                        </li>
+                      </ul>
+                      <p class="mb-1 lang-text">Currency:</p>
+                      <span class="currency me-2"><a class="currency-link ps-1" href="#">EUR</a> </span>
+                      <span class="currency"><a class="currency-link currency-active" href="#">USD</a> </span>
+                    </div>
+                    <div class="col-6">
+                      <ul class="check-list check">
+                        <li class="check__item mb-1 d-flex align-items-center">
+                          <i class='bx check__icon bx-arrow-to-right me-1'></i>
+                          <a class="check__link" href="#">Sign in</a>
+                        </li>
+
+                        <li class="check__item mb-2 d-flex align-items-center">
+                          <i class='bx check__icon me-1 bx-user'></i>
+                          <a class="check__link" href="#">My account</a>
+                        </li>
+
+                        <li class="check__item mb-2 d-flex align-items-center">
+                          <i class='bx bx-heart check__icon -to-right me-1'></i>
+                          <a class="check__link" href="#">Wishlist (0)</a>
+                        </li>
+
+                        <li class="check__item mb-2 d-flex align-items-center">
+                          <i class='bx check__icon bx-windows bx-flip-horizontal me-1'></i>
+                          <a class="check__link" href="#">Compare (0)</a>
+                        </li>
+
+                        <li class="check__item mb-2 d-flex align-items-center">
+                          <i class='bx bx-checkbox-checked check__icon'></i>
+                          <a class="check__link" href="#">Checkout</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="header__part__btn me-2 header__part__btn--circle"><i
+                  class='bx header__part__icon bx-heart'></i></button>
+              <button class="header__part__btn header__part__btn--circle"><i
+                  class='bx header__part__icon bx-basket'></i></button>
+            </div>
+          </div>
+          <div class="navbar">
+            <div class="d-flex align-items-center">
+              <button class="navbar__btn d-flex align-items-center" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false"><i class='bx navbar__menu bx-menu'></i>Shop by
+                Department</button>
+
+              <ul class="dropdown-menu m-0" aria-labelledby="dropdownMenuButton1">
+                <li><span class="drop-down-triangle"></span></li>
+
+                <li class="drop-items d-flex">
+                  <i class="fal drop-icon-shop fa-salad"></i>
+                  <a class="drop-link" href="#">Fruits & Vegetables</a>
+                </li>
+
+                <li class="drop-items drop-items--supply d-flex justify-content-between">
+                  <div>
+                    <i class="fal drop-icon-shop fa-meat"></i>
+                    <a class="drop-link" href="#">Supplyments</a>
+                  </div>
+                  <i class='bx drop-icon-shop drop-icon-shop--right bx-chevron-right me-0'></i>
+
+
+                  <ul class="second-list m-0 p-2">
+
+                    <li class="second-list__item">
+                      <a class="second-list__link" href="#">Vegetables</a>
+                    </li>
+
+                    <li class="second-list__item mb-1">
+                      <a class="second-list__link" href="#">Fresh Meat</a>
+                    </li>
+
+                    <li class="second-list__item">
+                      <a class="second-list__link" href="#">Fruit & Nut Gifts</a>
+                    </li>
+
+                    <li class="second-list__item">
+                      <a class="second-list__link" href="#">Fresh Berries</a>
+                    </li>
+
+                  </ul>
+
+                </li>
+
+                <li class="drop-items drop-items--third d-flex justify-content-between">
+                  <div>
+                    <i class="fal drop-icon-shop fa-egg-fried"></i>
+                    <a class="drop-link" href="#">Dairy Bread & Eggs</a>
+                  </div>
+                  <i class='bx drop-icon-shop drop-icon-shop--right bx-chevron-right me-0'></i>
+                  <ul class="second-list second-list--egg m-0 p-2">
+
+                    <li class="second-list__item">
+                      <a class="second-list__link" href="#">Egg Sandwich</a>
+                    </li>
+
+                    <li class="second-list__item mb-1">
+                      <a class="second-list__link" href="#">Easter Bread</a>
+                    </li>
+
+                    <li class="second-list__item">
+                      <a class="second-list__link" href="#">Portoguese breed</a>
+                    </li>
+
+                    <li class="second-list__item">
+                      <a class="second-list__link" href="#">Challah</a>
+                    </li>
+
+                  </ul>
+                </li>
+
+                <li class="drop-items d-flex">
+                  <i class="fal drop-icon-shop fa-pizza-slice"></i>
+                  <a class="drop-link" href="#">Package Foods</a>
+                </li>
+
+                <li class="drop-items drop-items-beauty d-flex justify-content-between">
+                  <div>
+                    <i class="fal drop-icon-shop fa-apple-alt"></i>
+                    <a class="drop-link" href="#">Beauty & Care</a>
+                  </div>
+                  <i class='bx drop-icon-shop drop-icon-shop--right bx-chevron-right me-0'></i>
+                  <ul class="second-list second-list-third m-0 p-2">
+
+                    <li class="second-list__item">
+                      <a class="second-list__link" href="#">Challah</a>
+                    </li>
+
+                    <li class="second-list__item mb-1">
+                      <a class="second-list__link" href="#">Fat Freezing</a>
+                    </li>
+
+                    <li class="second-list__item">
+                      <a class="second-list__link" href="#">Skin Resurfacing</a>
+                    </li>
+
+                    <li class="second-list__item">
+                      <a class="second-list__link" href="#">Eyelash Extensions</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="drop-items d-flex">
+                  <i class="fal drop-icon-shop fa-volleyball-ball"></i>
+                  <a class="drop-link" href="#">Health & Wellness</a>
+                </li>
+
+                <li class="drop-items d-flex">
+                  <i class="fal drop-icon-shop fa-ice-cream"></i>
+                  <a class="drop-link" href="#">Baby & Infants</a>
+                </li>
+
+                <li class="drop-items d-flex">
+                  <i class="fal drop-icon-shop fa-leaf"></i>
+                  <a class="drop-link" href="#">Home Care</a>
+                </li>
+
+                <li class="drop-items d-flex">
+                  <i class="fal drop-icon-shop fa-badge-percent"></i>
+                  <a class="drop-link" href="#">Hot Offers</a>
+                </li>
+
+              </ul>
+
+              <nav>
+                <ul class="navbar__menus menus d-flex m-0 p-0">
+
+                  <li class="menus__item menus__item--first d-flex align-items-center">
+                    <a class="menus__link" href="#">Home</a>
+                    <i class='bx menus__icon bx-chevron-down'></i>
+                    <ul class="menus__dropdown m-0 p-0">
+
+                      <li class="menus__second__link">
+                        <a class="menus__home__link" href="#">Home 1</a>
+                      </li>
+
+                      <li class="menus__second__link">
+                        <a class="menus__home__link" href="#">Home 2</a>
+                      </li>
+
+                      <li class="menus__second__link">
+                        <a class="menus__home__link" href="#">Home 3</a>
+                      </li>
+
+                      <li class="menus__second__link">
+                        <a class="menus__home__link" href="#">Home 4</a>
+                      </li>
+
+                      <li class="menus__second__link">
+                        <a class="menus__home__link" href="#">Home 5</a>
+                      </li>
+
+                      <li class="menus__second__link">
+                        <a class="menus__home__link" href="#">Home 6</a>
+                      </li>
+
+                      <li class="menus__second__link">
+                        <a class="menus__home__link" href="#">Home 7</a>
+                      </li>
+
+                      <li class="menus__second__link">
+                        <a class="menus__home__link" href="#">Home 8</a>
+                      </li>
+
+                    </ul>
+                  </li>
+
+
+                  <li class="menus__item menus__item--second d-flex align-items-center">
+                    <a class="menus__link" href="#">Shop</a>
+                    <i class='bx menus__icon bx-chevron-down'></i>
+                    <ul class="menus__dropdown menus__dropdown--shop m-0 p-0">
+
+                      <div class="d-flex justify-content-between pe-5">
+                        <div>
+                          <li>
+                            <h4 class="menus__category">Categories 1</h4>
+                          </li>
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Vegetable</a>
+                          </li>
+
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Tomato</a>
+                          </li>
+
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Cabbage</a>
+                          </li>
+
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Juice</a>
+                          </li>
+
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Meat</a>
+                          </li>
+                        </div>
+
+                        <div>
+                          <li>
+                            <h4 class="menus__category">Categories 2</h4>
+                          </li>
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Beef</a>
+                          </li>
+
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Pork</a>
+                          </li>
+
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Coconut</a>
+                          </li>
+
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Brocoil</a>
+                          </li>
+
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Fish</a>
+                          </li>
+                        </div>
+
+                        <div>
+                          <li>
+                            <h4 class="menus__category">Categories 3</h4>
+                          </li>
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Seefood</a>
+                          </li>
+
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Octopus</a>
+                          </li>
+
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Fish</a>
+                          </li>
+
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Pork</a>
+                          </li>
+
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">More</a>
+                          </li>
+                        </div>
+
+                        <div>
+                          <li>
+                            <h4 class="menus__category">Categories 4</h4>
+                          </li>
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Vegetable</a>
+                          </li>
+
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Tomato</a>
+                          </li>
+
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Cabbage</a>
+                          </li>
+
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Juice</a>
+                          </li>
+
+                          <li class="menus__second__link">
+                            <a class="menus__home__link" href="#">Meat</a>
+                          </li>
+                        </div>
+                      </div>
+
+                    </ul>
+                  </li>
+
+                  <li class="menus__item menus__item--third d-flex align-items-center">
+                    <a class="menus__link" href="#">Pages</a>
+                    <i class='bx menus__icon bx-chevron-down'></i>
+                    <ul class="menus__dropdown menus__dropdown--pages menus__dropdown--images m-0 p-0">
+
+                      <div class="d-flex">
+
+                        <li class="menus__second__link me-3">
+                          <a href="#"><img class="menus__img__link" src="images/pages-img.jpg" alt="pages-img"></a>
+                        </li>
+
+                        <li class="menus__second__link me-3">
+                          <a href="#"><img class="menus__img__link" src="images/pages-img.jpg" alt="pages-img"></a>
+                        </li>
+
+                        <li class="menus__second__link me-3">
+                          <a href="#"><img class="menus__img__link" src="images/pages-img.jpg" alt="pages-img"></a>
+                        </li>
+
+                        <li class="menus__second__link me-3">
+                          <a href="#"><img class="menus__img__link" src="images/pages-img.jpg" alt="pages-img"></a>
+                        </li>
+
+                        <li class="menus__second__link me-3">
+                          <a href="#"><img class="menus__img__link menus__img__link--second"
+                              src="images/pages-img-2.jpg" alt="pages-img-2"></a>
+                        </li>
+
+                        <li class="menus__second__link me-3">
+                          <a href="#"><img class="menus__img__link menus__img__link--third" src="images/pages-img-3.jpg"
+                              alt="pages-img-3"></a>
+                        </li>
+
+                        <li class="menus__second__link me-3">
+                          <a href="#"><img class="menus__img__link menus__img__link--third" src="images/page-img-4.jpg"
+                              alt="pages-img-4"></a>
+                        </li>
+                      </div>
+                    </ul>
+                  </li>
+
+                  <li class="menus__item d-flex align-items-center">
+                    <a class="menus__link" href="#">Blog</a>
+                  </li>
+
+                  <li class="menus__item d-flex align-items-center">
+                    <a class="menus__link" href="contact.html">Contact</a>
+                  </li>
+
+                </ul>
+              </nav>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="hero" class="hero">
+      <div class="container">
+        <div class="d-flex  hero__inner">
+
+
+          <div class="col-lg-8 col-sm-12 ">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active hero__left__img">
+                  <div class="hero__left__inner">
+                    <p class="hero__sub__title">Fresh and Tasty</p>
+                    <h1 class="hero__title animate-animated animate__fadeInLeft" style="animation-duration: 1.5s;">Farm
+                      Market <br> Organic Shop</h1>
+                    <a class="hero__link animate-animated animate__fadeInLeft" style="animation-duration: 1s;"
+                      href="#">Shop Now <i class='bx hero__icon bx-chevrons-right'></i></a>
+                  </div>
+
+                </div>
+                <div class="carousel-item">
+                  <div class="hero__left--second">
+                    <div class="hero__left__inner">
+                      <p class="hero__sub__title">Fresh and Tasty</p>
+                      <h1 class="hero__title animate-animated animate__fadeInRight" style="animation-duration: 1.5s;">
+                        Farm
+                        Market <br> Organic Shop</h1>
+                      <a class="hero__link animate-animated animate__fadeInRight" style="animation-duration: 1s;"
+                        href="#">Shop Now <i class='bx hero__icon bx-chevrons-right'></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item hero__left__img">
+                  <div class="hero__left__inner">
+                    <p class="hero__sub__title">Fresh and Tasty</p>
+                    <h1 class="hero__title animate-animated animate__fadeInLeft" style="animation-duration: 1.5s;">Farm
+                      Market <br> Organic Shop</h1>
+                    <a class="hero__link animate-animated animate__fadeInLeft" style="animation-duration: 1s;"
+                      href="#">Shop Now <i class='bx hero__icon bx-chevrons-right'></i></a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="hero__btn__wrapper">
+                <button class="hero__btn carousel-control-next me-2" type="button" data-bs-target="#carouselExampleFade"
+                  data-bs-slide="next">
+                  <img src="images/left-arrow.png" alt="left-arrow" width="15" height="15">
+
+                </button>
+                <button class="hero__btn carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                  data-bs-slide="prev">
+                  <img src="images/right-arrow.png" alt="right-arrow" width="15" height="15">
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+
+
+          <div class="hero__wrapper">
+            <div class="col-4 col-xs-12 hero__right__part">
+              <img class="hero__right__first__img" src="images/hero-right-img.jpg" alt="hero-right-img">
+              <div class="hero__right__text">
+                <h2 class="hero__title hero__right__title">Discover Real <br> Organic Shop</h2>
+                <a class="hero__link hero-right-link " href="#">Shop Now <i
+                    class='bx hero__icon bx-chevrons-right'></i></a>
+              </div>
+            </div>
+
+            <div class="col-4 col-xs-12 hero__right__part hero__right__part--second">
+              <img class="hero__right__img" src="images/hero-right-img-3.jpg" alt="hero-img">
+              <div class="hero-right__wrap">
+                <p class="hero__sub__title hero__sub__title--second">Summer Sale</p>
+                <span class="hero__price">50% off</span>
+                <p class="hero__info">Vitamins, Supplements and Herbs</p>
+                <a class="hero__shop__link" href="#">Shop Now <i
+                    class='bx hero__icon hero__shop__icon bx-chevrons-right'></i></a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <ul class="hero__list  d-flex  justify-content-between p-0 ">
+
+          <li class="hero__item col-lg-3 col-sm-5 col-xs-12">
+            <div class="hero__list__part">
+              <div class="ms-4 pt-2">
+                <h3 class="hero__product p-0 mb-1">Curated Products</h3>
+                <p class="hero__seller">from Handpicked Sellers</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="hero__item col-lg-3 col-sm-5 col-xs-12">
+            <div class="hero__list__part hero__list__part--second">
+              <div class="ms-4 pt-2">
+                <h3 class="hero__product p-0 mb-1">Handmade</h3>
+                <p class="hero__seller">Made with passion by 300+ curators across the country.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="hero__item col-lg-3 col-sm-5 col-xs-12">
+            <div class="hero__list__part hero__list__part--third">
+              <div class="ms-4 pt-2">
+                <h3 class="hero__product p-0 mb-1">100% Natural</h3>
+                <p class="hero__seller">Eat local, consume local, closer to nature.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="hero__item col-lg-3 col-sm-5 col-xs-12">
+            <div class="hero__list__part hero__list__part--fourth">
+              <div class="ms-4 pt-2">
+                <h3 class="hero__product p-0 mb-1">Shipping</h3>
+                <p class="hero__seller">Across West & East India</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+     <main>
+
+    <section id="product" class="product">
+      <div class="product__inner">
+        <div class="container">
+          <div class="d-flex product__main__wrapper justify-content-between align-items-center">
+            <h3 class="product__title">Featured Products</h3>
+            <a class="product__link " href="#">Shop All <i
+                class='bx hero__icon product__icon bx-chevrons-right'></i></a>
+          </div>
+
+          <ul class="product__list d-flex justify-content-between  mt-4 p-0">
+
+            <li class="product__item col-2">
+              <div class="product__img">
+                <div class="d-flex product__btn__wrapper">
+                  <button class="product__btn me-1" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                      class='bx card__icon bx-low-vision'></i></button>
+
+                  <button class="product__btn me-1"><i class='bx card__icon bx-heart'></i></button>
+                  <button class="product__btn"><i class='bx card__icon bx-share-alt'></i></button>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header product-modal-header">
+                        <button type="button" class="modal-button-close" data-bs-dismiss="modal" aria-label="Close"><i
+                            class='bx bx-x'></i></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="d-flex">
+                          <img class="modal-img" src="images/modal-tomato.jpg" alt="modal-tomato" width="370"
+                            height="320">
+                          <img class="modal-small-img ms-3" src="images/modal-tomato.jpg" alt="modal-tomato">
+                          <div class="ms-4">
+                            <h4 class="modal-title m-0 p-0">PAMELA'S PRODUCTS ARTISAN BLEND FLOUR GLUTEN FREE</h4>
+                            <span class="modal-price pt-2 d-inline-block">$11.90</span>
+                            <p class="pt-3 modal-desc">White Ceramic Mug. 325ml</p>
+
+                            <input class="modal-input" type="number" name="number" placeholder="1">
+                            <a class="modal-card-link ms-2" href="#">Add to card</a>
+                            <div class="pt-4 pb-4 d-flex modal-link-wrapper">
+                              <a class="d-flex align-items-center modal-wish-link" href="#"><i
+                                  class='bx modal-card-icon card__icon bx-heart me-2'></i> Add to wishlist</a>
+                              <a class="d-flex align-items-center modal-wish-link ms-3" href="#"><i
+                                  class='bx modal-card-icon card__icon bx-share-alt me-2'></i> Add to wishlist</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="modal-footer">
+                        <ul class="modal-footer__list m-0 p-0 modal-list">
+                          <li class="modal-list__item d-flex align-items-center">
+                            <h5 class="modal-list__title me-3">Share:</h5>
+                            <a href="#"><i class='bx modal-list__icon me-3 bxl-facebook'></i></a>
+                            <a href="#"><i
+                                class='bx modal-list__icon me-3 modal-list__icon--second bxl-twitter'></i></a>
+                            <a href="#"><i
+                                class='bx modal-list__icon modal-list__icon--third bxl-pinterest-alt'></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center product__text__wrapper pt-3">
+                <a class="product__home" href="#">Home</a>
+                <a class="d-block product__info" href="#">Pamela's Products Artisan Blend Flour Gluten Free</a>
+                <span class="product__dollar pt-2 d-inline-block">$11.90</span>
+              </div>
+              <a class="product__link product__add__link pt-3 " href="#">Add to card <i
+                  class='bx hero__icon product__icon bx-chevrons-right'></i></a>
+              <button class="hero__btn product__left__btn">
+                <img src="images/left-arrow.png" alt="left-arrow" width="15" height="15">
+              </button>
+
+            </li>
+
+            <li class="product__item col-2">
+              <div class="product__img product__img--second">
+                <div class="d-flex product__btn__wrapper">
+                  <button class="product__btn me-1" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                      class='bx card__icon bx-low-vision'></i></button>
+
+                  <button class="product__btn me-1"><i class='bx card__icon bx-heart'></i></button>
+                  <button class="product__btn"><i class='bx card__icon bx-share-alt'></i></button>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header product-modal-header">
+                        <button type="button" class="modal-button-close" data-bs-dismiss="modal" aria-label="Close"><i
+                            class='bx bx-x'></i></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="d-flex">
+                          <img class="modal-img" src="images/modal-tomato.jpg" alt="modal-tomato" width="370"
+                            height="320">
+                          <img class="modal-small-img ms-3" src="images/modal-tomato.jpg" alt="modal-tomato">
+                          <div class="ms-4">
+                            <h4 class="modal-title m-0 p-0">PAMELA'S PRODUCTS ARTISAN BLEND FLOUR GLUTEN FREE</h4>
+                            <span class="modal-price pt-2 d-inline-block">$11.90</span>
+                            <p class="pt-3 modal-desc">White Ceramic Mug. 325ml</p>
+
+                            <input class="modal-input" type="number" name="number" placeholder="1">
+                            <a class="modal-card-link ms-2" href="#">Add to card</a>
+                            <div class="pt-4 pb-4 d-flex modal-link-wrapper">
+                              <a class="d-flex align-items-center modal-wish-link" href="#"><i
+                                  class='bx modal-card-icon card__icon bx-heart me-2'></i> Add to wishlist</a>
+                              <a class="d-flex align-items-center modal-wish-link ms-3" href="#"><i
+                                  class='bx modal-card-icon card__icon bx-share-alt me-2'></i> Add to wishlist</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="modal-footer">
+                        <ul class="modal-footer__list m-0 p-0 modal-list">
+                          <li class="modal-list__item d-flex align-items-center">
+                            <h5 class="modal-list__title me-3">Share:</h5>
+                            <a href="#"><i class='bx modal-list__icon me-3 bxl-facebook'></i></a>
+                            <a href="#"><i
+                                class='bx modal-list__icon me-3 modal-list__icon--second bxl-twitter'></i></a>
+                            <a href="#"><i
+                                class='bx modal-list__icon modal-list__icon--third bxl-pinterest-alt'></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center product__text__wrapper pt-3">
+                <a class="product__home" href="#">Home</a>
+                <a class="d-block product__info" href="#">Pamela's Products Artisan Blend Flour Gluten Free</a>
+                <span class="product__dollar pt-2 d-inline-block">$11.90</span>
+              </div>
+              <a class="product__link product__add__link pt-3 " href="#">Add to card <i
+                  class='bx hero__icon product__icon bx-chevrons-right'></i></a>
+            </li>
+
+            <li class="product__item col-2">
+              <div class="product__img product__img--third">
+                <div class="d-flex product__btn__wrapper">
+                  <button class="product__btn me-1" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                      class='bx card__icon bx-low-vision'></i></button>
+
+                  <button class="product__btn me-1"><i class='bx card__icon bx-heart'></i></button>
+                  <button class="product__btn"><i class='bx card__icon bx-share-alt'></i></button>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header product-modal-header">
+                        <button type="button" class="modal-button-close" data-bs-dismiss="modal" aria-label="Close"><i
+                            class='bx bx-x'></i></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="d-flex">
+                          <img class="modal-img" src="images/modal-tomato.jpg" alt="modal-tomato" width="370"
+                            height="320">
+                          <img class="modal-small-img ms-3" src="images/modal-tomato.jpg" alt="modal-tomato">
+                          <div class="ms-4">
+                            <h4 class="modal-title m-0 p-0">PAMELA'S PRODUCTS ARTISAN BLEND FLOUR GLUTEN FREE</h4>
+                            <span class="modal-price pt-2 d-inline-block">$11.90</span>
+                            <p class="pt-3 modal-desc">White Ceramic Mug. 325ml</p>
+
+                            <input class="modal-input" type="number" name="number" placeholder="1">
+                            <a class="modal-card-link ms-2" href="#">Add to card</a>
+                            <div class="pt-4 pb-4 d-flex modal-link-wrapper">
+                              <a class="d-flex align-items-center modal-wish-link" href="#"><i
+                                  class='bx modal-card-icon card__icon bx-heart me-2'></i> Add to wishlist</a>
+                              <a class="d-flex align-items-center modal-wish-link ms-3" href="#"><i
+                                  class='bx modal-card-icon card__icon bx-share-alt me-2'></i> Add to wishlist</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="modal-footer">
+                        <ul class="modal-footer__list m-0 p-0 modal-list">
+                          <li class="modal-list__item d-flex align-items-center">
+                            <h5 class="modal-list__title me-3">Share:</h5>
+                            <a href="#"><i class='bx modal-list__icon me-3 bxl-facebook'></i></a>
+                            <a href="#"><i
+                                class='bx modal-list__icon me-3 modal-list__icon--second bxl-twitter'></i></a>
+                            <a href="#"><i
+                                class='bx modal-list__icon modal-list__icon--third bxl-pinterest-alt'></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center product__text__wrapper pt-3">
+                <a class="product__home" href="#">Home</a>
+                <a class="d-block product__info" href="#">Pamela's Products Artisan Blend Flour Gluten Free</a>
+                <span class="product__dollar pt-2 d-inline-block">$11.90</span>
+              </div>
+              <a class="product__link product__add__link pt-3 " href="#">Add to card <i
+                  class='bx hero__icon product__icon bx-chevrons-right'></i></a>
+
+
+            </li>
+
+            <li class="product__item col-lg-2">
+              <div class="product__img product__img--fourth">
+                <div class="d-flex product__btn__wrapper">
+                  <button class="product__btn me-1" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                      class='bx card__icon bx-low-vision'></i></button>
+
+                  <button class="product__btn me-1"><i class='bx card__icon bx-heart'></i></button>
+                  <button class="product__btn"><i class='bx card__icon bx-share-alt'></i></button>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header product-modal-header">
+                        <button type="button" class="modal-button-close" data-bs-dismiss="modal" aria-label="Close"><i
+                            class='bx bx-x'></i></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="d-flex">
+                          <img class="modal-img" src="images/modal-tomato.jpg" alt="modal-tomato" width="370"
+                            height="320">
+                          <img class="modal-small-img ms-3" src="images/modal-tomato.jpg" alt="modal-tomato">
+                          <div class="ms-4">
+                            <h4 class="modal-title m-0 p-0">PAMELA'S PRODUCTS ARTISAN BLEND FLOUR GLUTEN FREE</h4>
+                            <span class="modal-price pt-2 d-inline-block">$11.90</span>
+                            <p class="pt-3 modal-desc">White Ceramic Mug. 325ml</p>
+
+                            <input class="modal-input" type="number" name="number" placeholder="1">
+                            <a class="modal-card-link ms-2" href="#">Add to card</a>
+                            <div class="pt-4 pb-4 d-flex modal-link-wrapper">
+                              <a class="d-flex align-items-center modal-wish-link" href="#"><i
+                                  class='bx modal-card-icon card__icon bx-heart me-2'></i> Add to wishlist</a>
+                              <a class="d-flex align-items-center modal-wish-link ms-3" href="#"><i
+                                  class='bx modal-card-icon card__icon bx-share-alt me-2'></i> Add to wishlist</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="modal-footer">
+                        <ul class="modal-footer__list m-0 p-0 modal-list">
+                          <li class="modal-list__item d-flex align-items-center">
+                            <h5 class="modal-list__title me-3">Share:</h5>
+                            <a href="#"><i class='bx modal-list__icon me-3 bxl-facebook'></i></a>
+                            <a href="#"><i
+                                class='bx modal-list__icon me-3 modal-list__icon--second bxl-twitter'></i></a>
+                            <a href="#"><i
+                                class='bx modal-list__icon modal-list__icon--third bxl-pinterest-alt'></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center product__text__wrapper pt-3">
+                <a class="product__home" href="#">Home</a>
+                <a class="d-block product__info" href="#">Pamela's Products Artisan Blend Flour Gluten Free</a>
+                <span class="product__dollar pt-2 d-inline-block">$11.90</span>
+              </div>
+              <a class="product__link product__add__link pt-3 " href="#">Add to card <i
+                  class='bx hero__icon product__icon bx-chevrons-right'></i></a </li> </ul> </div> </div> </section>
+                <section id="advert" class="advert">
+              <div class="advert__inner">
+                <div class="container">
+
+                  <div class="d-flex advert__main__inner">
+                    <div>
+                      <div class="advert__item advert__item--first">
+                        <div class="advert__wrapper">
+                          <a class="advert__img" href="#">
+                            <img class="advert__img"
+                              src="https://cdn.shopify.com/s/files/1/0740/5717/files/freshio_h2_bn1.jpg?v=1630122614"
+                              alt="img-first">
+                          </a>
+                          <div class="advert__text__part text-center">
+                            <a class="advert__link advert__link--second" href="#">Fruits & <br> Vegetables</a>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="advert__item">
+                        <div class="advert__wrapper">
+                          <a class="advert__img" href="#">
+                            <img class="advert__img"
+                              src="https://cdn.shopify.com/s/files/1/0740/5717/files/freshio_h2_bn2.jpg?v=1630122614"
+                              alt="img-second">
+                          </a>
+                          <div class="advert__text__part advert__text__part--second text-center">
+                            <a class="advert__link advert__link--second  advert__link--seconditem" href="#">Dairy Bread
+                              &<br> Eggs</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-flex advert__part">
+                        <div class="advert__item advert__item--second">
+                          <div class="advert__wrapper">
+                            <a class="advert__img" href="#">
+                              <img class="advert__img"
+                                src="https://cdn.shopify.com/s/files/1/0740/5717/files/freshio_h2_bn3.jpg?v=1630122614"
+                                alt="img-third">
+                            </a>
+                            <div class="advert__text__part advert__text__part--third text-center">
+                              <a class="advert__link advert__link--second" href="#">Package<br> Foods</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="advert__item advert__item--third advert__item--second">
+                          <div class="advert__wrapper">
+                            <a class="advert__img" href="#">
+                              <img class="advert__img"
+                                src="https://cdn.shopify.com/s/files/1/0740/5717/files/freshio_h2_bn4.jpg?v=1630122614"
+                                alt="img-fourth">
+                            </a>
+                            <div class="advert__text__part advert__text__part--third text-center">
+                              <a class="advert__link advert__link--second advert__link--second  advert__link--secondfood"
+                                href="#">Beverages</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div class="advert__item">
+                        <div class="advert__wrapper">
+                          <a class="advert__img" href="#">
+                            <img class="advert__img"
+                              src="https://cdn.shopify.com/s/files/1/0740/5717/files/freshio_h2_bn5.jpg?v=1630122614"
+                              alt="img-last">
+                          </a>
+                          <div class="advert__text__part text-center">
+                            <a class="advert__link advert__link--second" href="#">Health & <br> Wellness</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section id="product" class="product">
+      <div class="product__inner">
+        <div class="container">
+          <div class="d-flex product__main__wrapper justify-content-between align-items-center">
+            <h3 class="product__title">Best Seller</h3>
+            <a class="product__link " href="#">Shop All <i
+                class='bx hero__icon product__icon bx-chevrons-right'></i></a>
+          </div>
+
+          <ul class="product__list d-flex justify-content-between  mt-4 p-0">
+
+            <li class="product__item col-2">
+              <div class="product__img">
+                <div class="d-flex product__btn__wrapper">
+                  <button class="product__btn me-1" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                      class='bx card__icon bx-low-vision'></i></button>
+
+                  <button class="product__btn me-1"><i class='bx card__icon bx-heart'></i></button>
+                  <button class="product__btn"><i class='bx card__icon bx-share-alt'></i></button>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header product-modal-header">
+                        <button type="button" class="modal-button-close" data-bs-dismiss="modal" aria-label="Close"><i
+                            class='bx bx-x'></i></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="d-flex">
+                          <img class="modal-img" src="images/modal-tomato.jpg" alt="modal-tomato" width="370"
+                            height="320">
+                          <img class="modal-small-img ms-3" src="images/modal-tomato.jpg" alt="modal-tomato">
+                          <div class="ms-4">
+                            <h4 class="modal-title m-0 p-0">PAMELA'S PRODUCTS ARTISAN BLEND FLOUR GLUTEN FREE</h4>
+                            <span class="modal-price pt-2 d-inline-block">$11.90</span>
+                            <p class="pt-3 modal-desc">White Ceramic Mug. 325ml</p>
+
+                            <input class="modal-input" type="number" name="number" placeholder="1">
+                            <a class="modal-card-link ms-2" href="#">Add to card</a>
+                            <div class="pt-4 pb-4 d-flex modal-link-wrapper">
+                              <a class="d-flex align-items-center modal-wish-link" href="#"><i
+                                  class='bx modal-card-icon card__icon bx-heart me-2'></i> Add to wishlist</a>
+                              <a class="d-flex align-items-center modal-wish-link ms-3" href="#"><i
+                                  class='bx modal-card-icon card__icon bx-share-alt me-2'></i> Add to wishlist</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="modal-footer">
+                        <ul class="modal-footer__list m-0 p-0 modal-list">
+                          <li class="modal-list__item d-flex align-items-center">
+                            <h5 class="modal-list__title me-3">Share:</h5>
+                            <a href="#"><i class='bx modal-list__icon me-3 bxl-facebook'></i></a>
+                            <a href="#"><i
+                                class='bx modal-list__icon me-3 modal-list__icon--second bxl-twitter'></i></a>
+                            <a href="#"><i
+                                class='bx modal-list__icon modal-list__icon--third bxl-pinterest-alt'></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center product__text__wrapper pt-3">
+                <a class="product__home" href="#">Home</a>
+                <a class="d-block product__info" href="#">Pamela's Products Artisan Blend Flour Gluten Free</a>
+                <span class="product__dollar pt-2 d-inline-block">$11.90</span>
+              </div>
+              <a class="product__link product__add__link pt-3 " href="#">Add to card <i
+                  class='bx hero__icon product__icon bx-chevrons-right'></i></a>
+              <button class="hero__btn product__left__btn">
+                <img src="images/left-arrow.png" alt="left-arrow" width="15" height="15">
+              </button>
+
+            </li>
+
+            <li class="product__item col-2">
+              <div class="product__img product__img--second">
+                <div class="d-flex product__btn__wrapper">
+                  <button class="product__btn me-1" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                      class='bx card__icon bx-low-vision'></i></button>
+
+                  <button class="product__btn me-1"><i class='bx card__icon bx-heart'></i></button>
+                  <button class="product__btn"><i class='bx card__icon bx-share-alt'></i></button>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header product-modal-header">
+                        <button type="button" class="modal-button-close" data-bs-dismiss="modal" aria-label="Close"><i
+                            class='bx bx-x'></i></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="d-flex">
+                          <img class="modal-img" src="images/modal-tomato.jpg" alt="modal-tomato" width="370"
+                            height="320">
+                          <img class="modal-small-img ms-3" src="images/modal-tomato.jpg" alt="modal-tomato">
+                          <div class="ms-4">
+                            <h4 class="modal-title m-0 p-0">PAMELA'S PRODUCTS ARTISAN BLEND FLOUR GLUTEN FREE</h4>
+                            <span class="modal-price pt-2 d-inline-block">$11.90</span>
+                            <p class="pt-3 modal-desc">White Ceramic Mug. 325ml</p>
+
+                            <input class="modal-input" type="number" name="number" placeholder="1">
+                            <a class="modal-card-link ms-2" href="#">Add to card</a>
+                            <div class="pt-4 pb-4 d-flex modal-link-wrapper">
+                              <a class="d-flex align-items-center modal-wish-link" href="#"><i
+                                  class='bx modal-card-icon card__icon bx-heart me-2'></i> Add to wishlist</a>
+                              <a class="d-flex align-items-center modal-wish-link ms-3" href="#"><i
+                                  class='bx modal-card-icon card__icon bx-share-alt me-2'></i> Add to wishlist</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="modal-footer">
+                        <ul class="modal-footer__list m-0 p-0 modal-list">
+                          <li class="modal-list__item d-flex align-items-center">
+                            <h5 class="modal-list__title me-3">Share:</h5>
+                            <a href="#"><i class='bx modal-list__icon me-3 bxl-facebook'></i></a>
+                            <a href="#"><i
+                                class='bx modal-list__icon me-3 modal-list__icon--second bxl-twitter'></i></a>
+                            <a href="#"><i
+                                class='bx modal-list__icon modal-list__icon--third bxl-pinterest-alt'></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center product__text__wrapper pt-3">
+                <a class="product__home" href="#">Home</a>
+                <a class="d-block product__info" href="#">Pamela's Products Artisan Blend Flour Gluten Free</a>
+                <span class="product__dollar pt-2 d-inline-block">$11.90</span>
+              </div>
+              <a class="product__link product__add__link pt-3 " href="#">Add to card <i
+                  class='bx hero__icon product__icon bx-chevrons-right'></i></a>
+            </li>
+
+            <li class="product__item col-2">
+              <div class="product__img product__img--third">
+                <div class="d-flex product__btn__wrapper">
+                  <button class="product__btn me-1" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                      class='bx card__icon bx-low-vision'></i></button>
+
+                  <button class="product__btn me-1"><i class='bx card__icon bx-heart'></i></button>
+                  <button class="product__btn"><i class='bx card__icon bx-share-alt'></i></button>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header product-modal-header">
+                        <button type="button" class="modal-button-close" data-bs-dismiss="modal" aria-label="Close"><i
+                            class='bx bx-x'></i></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="d-flex">
+                          <img class="modal-img" src="images/modal-tomato.jpg" alt="modal-tomato" width="370"
+                            height="320">
+                          <img class="modal-small-img ms-3" src="images/modal-tomato.jpg" alt="modal-tomato">
+                          <div class="ms-4">
+                            <h4 class="modal-title m-0 p-0">PAMELA'S PRODUCTS ARTISAN BLEND FLOUR GLUTEN FREE</h4>
+                            <span class="modal-price pt-2 d-inline-block">$11.90</span>
+                            <p class="pt-3 modal-desc">White Ceramic Mug. 325ml</p>
+
+                            <input class="modal-input" type="number" name="number" placeholder="1">
+                            <a class="modal-card-link ms-2" href="#">Add to card</a>
+                            <div class="pt-4 pb-4 d-flex modal-link-wrapper">
+                              <a class="d-flex align-items-center modal-wish-link" href="#"><i
+                                  class='bx modal-card-icon card__icon bx-heart me-2'></i> Add to wishlist</a>
+                              <a class="d-flex align-items-center modal-wish-link ms-3" href="#"><i
+                                  class='bx modal-card-icon card__icon bx-share-alt me-2'></i> Add to wishlist</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="modal-footer">
+                        <ul class="modal-footer__list m-0 p-0 modal-list">
+                          <li class="modal-list__item d-flex align-items-center">
+                            <h5 class="modal-list__title me-3">Share:</h5>
+                            <a href="#"><i class='bx modal-list__icon me-3 bxl-facebook'></i></a>
+                            <a href="#"><i
+                                class='bx modal-list__icon me-3 modal-list__icon--second bxl-twitter'></i></a>
+                            <a href="#"><i
+                                class='bx modal-list__icon modal-list__icon--third bxl-pinterest-alt'></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center product__text__wrapper pt-3">
+                <a class="product__home" href="#">Home</a>
+                <a class="d-block product__info" href="#">Pamela's Products Artisan Blend Flour Gluten Free</a>
+                <span class="product__dollar pt-2 d-inline-block">$11.90</span>
+              </div>
+              <a class="product__link product__add__link pt-3 " href="#">Add to card <i
+                  class='bx hero__icon product__icon bx-chevrons-right'></i></a>
+
+
+            </li>
+
+            <li class="product__item col-lg-2">
+              <div class="product__img product__img--fourth">
+                <div class="d-flex product__btn__wrapper">
+                  <button class="product__btn me-1" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                      class='bx card__icon bx-low-vision'></i></button>
+
+                  <button class="product__btn me-1"><i class='bx card__icon bx-heart'></i></button>
+                  <button class="product__btn"><i class='bx card__icon bx-share-alt'></i></button>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header product-modal-header">
+                        <button type="button" class="modal-button-close" data-bs-dismiss="modal" aria-label="Close"><i
+                            class='bx bx-x'></i></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="d-flex">
+                          <img class="modal-img" src="images/modal-tomato.jpg" alt="modal-tomato" width="370"
+                            height="320">
+                          <img class="modal-small-img ms-3" src="images/modal-tomato.jpg" alt="modal-tomato">
+                          <div class="ms-4">
+                            <h4 class="modal-title m-0 p-0">PAMELA'S PRODUCTS ARTISAN BLEND FLOUR GLUTEN FREE</h4>
+                            <span class="modal-price pt-2 d-inline-block">$11.90</span>
+                            <p class="pt-3 modal-desc">White Ceramic Mug. 325ml</p>
+
+                            <input class="modal-input" type="number" name="number" placeholder="1">
+                            <a class="modal-card-link ms-2" href="#">Add to card</a>
+                            <div class="pt-4 pb-4 d-flex modal-link-wrapper">
+                              <a class="d-flex align-items-center modal-wish-link" href="#"><i
+                                  class='bx modal-card-icon card__icon bx-heart me-2'></i> Add to wishlist</a>
+                              <a class="d-flex align-items-center modal-wish-link ms-3" href="#"><i
+                                  class='bx modal-card-icon card__icon bx-share-alt me-2'></i> Add to wishlist</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="modal-footer">
+                        <ul class="modal-footer__list m-0 p-0 modal-list">
+                          <li class="modal-list__item d-flex align-items-center">
+                            <h5 class="modal-list__title me-3">Share:</h5>
+                            <a href="#"><i class='bx modal-list__icon me-3 bxl-facebook'></i></a>
+                            <a href="#"><i
+                                class='bx modal-list__icon me-3 modal-list__icon--second bxl-twitter'></i></a>
+                            <a href="#"><i
+                                class='bx modal-list__icon modal-list__icon--third bxl-pinterest-alt'></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center product__text__wrapper pt-3">
+                <a class="product__home" href="#">Home</a>
+                <a class="d-block product__info" href="#">Pamela's Products Artisan Blend Flour Gluten Free</a>
+                <span class="product__dollar pt-2 d-inline-block">$11.90</span>
+              </div>
+              <a class="product__link product__add__link pt-3 " href="#">Add to card <i
+                  class='bx hero__icon product__icon bx-chevrons-right'></i></a </li> </ul> </div> </div> </section>
+                <section id="customer" class="customer">
+              <div class="customer__inner">
+                <div class="container">
+                  <ul class="customer__list p-0 m-0">
+
+                    <li class="customer__item d-flex justify-content-between">
+                      <div class="col-lg-6 col-md-6 col-xs-12">
+                        <img class="customer__img" src="images/customer-img-1.jpg" alt="customer-img-1">
+                      </div>
+                      <div class="col-lg-5 col-md-5">
+                        <h4 class="customer__title">A shop for good people by good people</h4>
+                        <p class="customer__text">Buy natural, sustainable and chemicalfree products from local sellers
+                          across the country.</p>
+                        <p class="customer__text">We are a strong community of 100,000+ customers and 600+ sellers who
+                          aspire to be good, do good, and spread goodness. We are a democratic, self-sustaining,
+                          two-sided marketplace which thrives on trust and is built on community and quality content.
+                        </p>
+                        <a class="product__link " href="#">Store location <i
+                            class='bx hero__icon product__icon bx-chevrons-right'></i></a>
+                      </div>
+                    </li>
+
+                    <li class="customer__item d-flex justify-content-between align-items-center">
+                      <div class="col-lg-6 col-md-5 col-xs-12">
+                        <img class="customer__img" src="images/customer-img-2.jpg" alt="customer-img-2">
+                      </div>
+                      <div class="col-lg-5 col-md-6">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                              class="active carousel-button" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                              class="carousel-button" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                              class="carousel-button" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <div class="carousel-part">
+                                <h4 class="customer__title">Why customer love us</h4>
+                                <p class="customer__text text-dark">“I have been a regular customer in Freshio and the
+                                  reason is I get a variety of organic products and it gives me many options to choose
+                                  from and the Quality of the produce is good.”</p>
+                                <span class="customer__desc">Pragya - Bellandur Store</span>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="carousel-part">
+                                <h4 class="customer__title">Why customer love us</h4>
+                                <p class="customer__text text-dark">“I have been a regular customer in Freshio and the
+                                  reason is I get a variety of organic products and it gives me many options to choose
+                                  from and the Quality of the produce is good.”</p>
+                                <span class="customer__desc">Pragya - Bellandur Store</span>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="carousel-part">
+                                <h4 class="customer__title">Why customer love us</h4>
+                                <p class="customer__text text-dark">“I have been a regular customer in Freshio and the
+                                  reason is I get a variety of organic products and it gives me many options to choose
+                                  from and the Quality of the produce is good.”</p>
+                                <span class="customer__desc">Pragya - Bellandur Store</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+      </section>
+
+    <div class="seller">
+      <div class="seller__inner">
+        <div class="container">
+          <ul class="seller__list d-flex justify-content-between m-0 p-0">
+            <li class="seller__item">
+              <a href="#"><img class="seller__img" src="images/seller-1-img.jpg" alt="seller-1-img"></a>
+            </li>
+
+            <li class="seller__item">
+              <a href="#"><img class="seller__img" src="images/seller-2-img.jpg" alt="seller-2-img"></a>
+            </li>
+
+            <li class="seller__item">
+              <a href="#"><img class="seller__img" src="images/seller-3-img.jpg" alt="seller-3-img"></a>
+            </li>
+
+            <li class="seller__item">
+              <a href="#"><img class="seller__img" src="images/seller-4-img.jpg" alt="seller-4-img"></a>
+            </li>
+
+            <li class="seller__item">
+              <a href="#"><img class="seller__img" src="images/seller-5-img.jpg" alt="seller-5-img"></a>
+            </li>
+
+            <li class="seller__item">
+              <a href="#"><img class="seller__img" src="images/seller-6-img.jpg" alt="seller-6-img"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+     </div>
+
+    <section id="contact" class="contact">
+      <div class="contact__inner">
+        <div class="container">
+          <ul class="contact__list col-12 d-flex flex-wrap">
+            <li class="contact__item col-lg-6 col-md-6 col-sm-12 ">
+              <div class="contact__wrapper support d-flex">
+                <div class="support__img__wrapper">
+                  <i class='bx contact__icon bx-headphone'></i>
+                </div>
+                <div class="support__entry">
+                  <p class="support__text">Phone Support</p>
+                  <h4 class="support__title">call us 24/7</h4>
+                  <a class="support__number" href="tel:998444">(1800)-88-66-991</a>
+                  <a class="support__email" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                    title="giyasov@example.com" href="mailto:">giyasov@example.com</a>
+                </div>
+              </div>
+            </li>
+            <li class="contact__item col-lg-6 col-md-6 col-sm-12">
+              <div class="contact__part info d-flex">
+                <div class="info__imgbox">
+                  <i class='bx contact__icon bx-mail-send'></i>
+                </div>
+                <div class="info__entry">
+                  <p class="info__text text-capitalize">daily updates</p>
+                  <h4 class="info__title text-uppercase">subscribe us</h4>
+                  <p class="info__cost">Sign up and get a voucher of worth $250.00</p>
+                  <form action="#">
+                    <div class="info__input">
+                      <input class="info__email" type="email" name="email" placeholder="Email address" required>
+                      <button class="info__btn" type="submit">
+                        <i class="info__icon fal fa-long-arrow-right"></i>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    </main>
+ 
+    <footer id="site-footer" class="site-footer footer">
+    <div class="footer__inner">
+      <div class="container">
+        <ul class="footer__list d-flex flex-wrap justify-content-between m-0 p-0">
+
+          <li class="footer__item col-lg-3">
+            <h5 class="footer__title">STORE LOCATION</h5>
+            <p class="footer__address">9066 Green Lake Drive Chevy <br> Chase, MD 20815</p>
+            <span class="footer__date">Monday - Saturday:</span>
+            <p class="footer__time">8:00 am - 4:00pm</p>
+            <span class="footer__date">Sunday:</span>
+            <p class="footer__time">9:00 am - 5:00pm</p>
+          </li>
+
+          <li class="footer__item col-lg-2">
+            <h5 class="footer__title mb-4">information</h5>
+            <nav>
+              <ul class="footer__inner__list m-0 p-0">
+                <li class="footer__item"><a class="footer__link" href="#">About us</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Blog</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Check out</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Contact</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Service</a></li>
+              </ul>
+            </nav>
+          </li>
+
+          <li class="footer__item col-lg-2">
+            <h5 class="footer__title mb-4">My Account</h5>
+            <nav>
+              <ul class="footer__inner__list m-0 p-0">
+                <li class="footer__item"><a class="footer__link" href="#">My Account</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Contact</a></li>
+
+                <li class="footer__item"><a class="footer__link" href="#">Shopping cart</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Shop</a></li>
+              </ul>
+            </nav>
+          </li>
+
+          <li class="footer__item col-lg-2">
+            <h5 class="footer__title mb-4">Categories</h5>
+            <nav>
+              <ul class="footer__inner__list m-0 p-0">
+                <li class="footer__item"><a class="footer__link" href="#">Fruits & Vegetables</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Dairy Products</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Package Foods</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Beverage</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Beverage</a></li>
+
+              </ul>
+            </nav>
+          </li>
+
+          <li class="footer__item col-lg-3">
+            <h5 class="footer__title">ACCEPT PAYMENT</h5>
+            <img src="images/footer-img.png" alt="footer-img">
+            <h5 class="footer__title pt-5">follow us</h5>
+          </li>
+
+        </ul>
+        <p class="footer__copy">Copyright © 2021 <span class="footer__copy__style">Freshio.</span> All Rights Reserved.
+        </p>
+      </div>
+     </div>
+    </footer>
+
+    <div class="bottom-nav">
+      <ul class="d-flex p-0 m-0 col-12 justify-content-between bottom-nav__inner">
+
+      <li class=" bottom-nav__item d-flex justify-content-center align-items-center col-3">
+        <div class="text-center d-flex flex-column pt-1">
+          <button class="bottom-nav__btn"><i class="fal bottom-nav__icon mb-1 fa-store"></i></button>
+          <a class="bottom-nav__link" href="#">Shop</a>
+        </div>
+      </li>
+
+      <li class=" bottom-nav__item d-flex justify-content-center align-items-center col-3">
+        <div class="text-center d-flex flex-column pt-1">
+          <button class="bottom-nav__btn"><i class='bx bottom-nav__heart bx-heart'></i></button>
+          <a class="bottom-nav__link" href="#">Wishlist</a>
+        </div>
+      </li>
+
+      <li class=" bottom-nav__item d-flex justify-content-center align-items-center col-3">
+        <div class="text-center d-flex flex-column pt-1">
+          <button class="bottom-nav__btn" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" type="button"
+            data-bs-toggle="offcanvas"><i class='bx bottom-nav__icon bx-user'></i></button>
+          <a class="bottom-nav__link" href="#">Account</a>
+        </div>
+      </li>
+
+      <li class=" bottom-nav__item d-flex justify-content-center align-items-center col-3">
+        <div class="text-center d-flex flex-column pt-1">
+          <button class="bottom-nav__btn"><i class='bx bottom-nav__icon bx-search'></i></button>
+
+          <a class="bottom-nav__link" href="#">Shop</a>
+        </div>
+      </li>
+    </ul>
+
+    <a class="fixed-link" href="#"><i class='bx fixed-icon bx-chevrons-up'></i></a>
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>

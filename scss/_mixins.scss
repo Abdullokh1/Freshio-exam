@@ -3,3 +3,15 @@
   margin: 0;
   list-style: none;
 }
+  
+@mixin decoration-none {
+  text-decoration: none;  
+}
+@mixin border-none {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+@mixin  bold-text {
+  font-weight: 700;
+}

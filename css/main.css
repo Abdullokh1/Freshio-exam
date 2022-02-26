@@ -2918,6 +2918,11 @@ textarea:focus {
   border-bottom: none;
 }
 
+.footer__title--account {
+  position: relative;
+  top: -25px;
+}
+
 .footer__copy--second {
   border-top: 1px solid rgba(170, 170, 170, 0.267);
   color: #aaa;
